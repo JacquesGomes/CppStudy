@@ -61,7 +61,7 @@ class List{
             Node* c = head;
 
             if(empty()){
-                cout << "The list is empty." << endl;
+                cout << "The list is empty.\n\n";
             }
             else{
                 while(c){
@@ -178,13 +178,13 @@ void List::menu(){
         cout << "3. Check if Certain Element is in the List" << endl;
         cout << "4. Show List Size" <<endl;
         cout << "5. Insert Element at Tail Position" << endl;
-        /*
-        cout << "5. Show List Size" <<endl;
-        cout << "6. Show All List Elements" <<endl;
+        cout << "6. Insert Element at Head Position" << endl;
         cout << "7. Show List Head" << endl;
-        cout << "8. Show List Tail" <<endl;*/
+        cout << "8. Show List Tail" <<endl;
+        cout << "9. Delete List Tail" <<endl;
         cout << endl;
         cout << "Print the operation of your choice: ";
+
         /*//Check if Certain Element is in the List
         //Insert Element at Head Position
         //Insert Element at Tail position
@@ -202,7 +202,7 @@ void List::action(int op){
     switch(op){
 
         case 0:
-            cout  << "Bye bye." << endl;
+            cout  << "Bye bye.\n";
             break;
 
         case 1:
@@ -211,59 +211,76 @@ void List::action(int op){
 
         case 2:
 
-            cout << endl;
             if(empty()==1){
-                cout << "The list is empty" <<endl;
+                cout << "\nThe list is empty" <<"\n\n";
             }
             else{
-                cout << "The list isnt empty" << endl;
+                cout << "\nThe list isnt empty" << "\n\n";
             }
-            cout << endl;
             break;
 
         case 3:
             int check;
-            cout << endl;
-            cout << "Insert the number you want to check: ";
+            cout << "\nInsert the number you want to check: ";
             cin >> check;
-            cout << endl;
 
             if((checkElement(check)) == true){
-                cout << "The number '" <<check << "' is on the list" << endl;
+                cout << "\nYes, the number '" <<check << "' is on the list" << "\n\n";
             }
             else {
-                cout << "The number '" << check << "' isn't on the list" <<endl;
+                cout << "\nNo, the number '" << check << "' isn't on the list" <<"\n\n";
             }
-            cout << endl;
             break;
 
         case 4:
             int size_int;
             size_int = getSize();
 
-            cout << endl;
-            cout << "The list size is: " << size_int <<endl;
-            cout << endl;
+            cout << "\nThe list size is: " << size_int <<"\n\n";
             break;
 
         case 5:
 
             int tail_number;
-            cout << endl;
-            cout << "Insert the number you want to insert at the tail position: ";
+            cout << "\nInsert the number you want to insert at the tail position: ";
             cin >> tail_number;
 
             insert_tail (tail_number);
-            cout << endl;
-            cout << "Here is the list new tail: " << tail->getElement() << endl;
-            cout << endl;
+            cout << "\nHere is the list new tail: " << tail->getElement() << "\n\n";
             break;
 
         case 6:
+
+            int head_number;
+            cout << "\nInsert the number you want to insert at the head position: ";
+            cin >> head_number;
+
+            insert_head (head_number);
+            cout << "\nHere is the list new head: " << head->getElement() << "\n\n";
+            break;
             
         case 7:
 
+            cout << "\nHere is the list head: " << head->getElement() << "\n\n";
+            break;
+
         case 8:
+
+            cout << "\nHere is the list tail: " << tail->getElement() << "\n\n";
+            break;
+
+        case 9:
+
+            remove();
+            if(empty()!=1){
+                cout << "\nHere is the list new tail: " << tail->getElement() << "\n\n";
+                break;
+            }
+            else{
+                cout << "\nThe list is empty\n\n";
+            }
+
+            break;
 
         default:
 
@@ -273,8 +290,7 @@ void List::action(int op){
 
 int main(){
 
-    List chain(0);
-    chain.remove();
+    List chain;
 
     return 0;
 }
