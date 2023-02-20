@@ -145,26 +145,26 @@ class List{
                 if(head->getNext()==NULL){
                     head = NULL;
                 }
-                else if (getSize()==2){
+            
+
+                else if (head->getNext()==tail){
                     head->setNext(NULL);
-                }
-                else if(head->getNext()->getNext()==NULL){
-                    head->setNext(NULL);
+                    tail = head;
                 }
                 else{
-                    Node* temp1 = head;
-                    Node* temp2 = head->getNext();
-                    Node* temp3 = head->getNext()->getNext();
+                    Node* tempH = head;
+                    Node* tempH2 = head->getNext();
+                    Node* tempH3 = head->getNext()->getNext();
 
-                    while(temp3){
-                        Node* aux = temp2;
-                        temp2 = temp3;
-                        temp1 = aux;
-                        temp3 = temp3->getNext();
+                    while(tempH3){
+                        Node* aux = tempH2;
+                        tempH2 = tempH3;
+                        tempH = aux;
+                        tempH3 = tempH3->getNext();
                     }
-                    delete temp1->getNext();
-                    temp1->setNext(NULL);
-                    tail = temp1;
+                    delete tempH->getNext();
+                    tempH->setNext(NULL);
+                    tail = tempH;
                 }
             }
         }
