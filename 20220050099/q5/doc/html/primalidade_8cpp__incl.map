@@ -1,0 +1,5 @@
+<map id="primalidade.cpp" name="primalidade.cpp">
+<area shape="rect" id="node1" title="Recebe o resultado do fatorial e retorna o primeiro número primo anterior a esse resultado." alt="" coords="70,5,197,32"/>
+<area shape="rect" id="node2" href="$primalidade_8hpp.html" title="assinatura da função que calcula o primeiro primo antes do resultado do fatorial" alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="157,80,237,107"/>
+</map>

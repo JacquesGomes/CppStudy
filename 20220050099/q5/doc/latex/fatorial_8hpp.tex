@@ -1,0 +1,56 @@
+\hypertarget{fatorial_8hpp}{}\doxysection{fatorial.\+hpp File Reference}
+\label{fatorial_8hpp}\index{fatorial.hpp@{fatorial.hpp}}
+
+
+assinatura da função que calcula o fatorial  
+
+
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{fatorial_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{fatorial_8hpp_aec81b918c463533840b372d476838d1a}{fatorial}} (int n)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+assinatura da função que calcula o fatorial 
+
+\begin{DoxyAuthor}{Author}
+Jacques Gomes Pinheiro Junior $\vert$ Matrícula\+: 20220050099 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{fatorial_8hpp_aec81b918c463533840b372d476838d1a}\label{fatorial_8hpp_aec81b918c463533840b372d476838d1a}} 
+\index{fatorial.hpp@{fatorial.hpp}!fatorial@{fatorial}}
+\index{fatorial@{fatorial}!fatorial.hpp@{fatorial.hpp}}
+\doxysubsubsection{\texorpdfstring{fatorial()}{fatorial()}}
+{\footnotesize\ttfamily int fatorial (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+caso base em que n == 0 e já coletamos todas as multiplicações
+
+chamada da função recursiva com n $\ast$ n-\/1 até n == 0
+
+Definition at line 12 of file fatorial.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{12                    \{}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14     \textcolor{keywordflow}{if}(n == 0)\{}
+\DoxyCodeLine{18         \textcolor{keywordflow}{return} 1;}
+\DoxyCodeLine{19     \}}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     \textcolor{keywordtype}{int} x = n * (\mbox{\hyperlink{fatorial_8cpp_aec81b918c463533840b372d476838d1a}{fatorial}}(n-\/1)); }
+\DoxyCodeLine{25     \textcolor{keywordflow}{return} x;}
+\DoxyCodeLine{26 \}}
+
+\end{DoxyCode}

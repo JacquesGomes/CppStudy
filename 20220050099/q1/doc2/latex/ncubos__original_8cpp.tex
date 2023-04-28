@@ -1,0 +1,70 @@
+\hypertarget{ncubos__original_8cpp}{}\doxysection{ncubos\+\_\+original.\+cpp File Reference}
+\label{ncubos__original_8cpp}\index{ncubos\_original.cpp@{ncubos\_original.cpp}}
+
+
+Função que calcula a somado do cubo de todos os números do vetor.  
+
+
+{\ttfamily \#include $<$bits/stdc++.\+h$>$}\newline
+Include dependency graph for ncubos\+\_\+original.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{ncubos__original_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{ncubos__original_8cpp_a4a0e0062ecf1f177d0dafd7b24babf93}{soma\+Cubos}} (int n)
+\item 
+\mbox{\Hypertarget{ncubos__original_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{ncubos__original_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Função que calcula a somado do cubo de todos os números do vetor. 
+
+\begin{DoxyAuthor}{Author}
+Jacques Gomes 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em n} & quantidade de cubos \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+soma do cubo dos primeiros n cubos 
+\end{DoxyReturn}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{ncubos__original_8cpp_a4a0e0062ecf1f177d0dafd7b24babf93}\label{ncubos__original_8cpp_a4a0e0062ecf1f177d0dafd7b24babf93}} 
+\index{ncubos\_original.cpp@{ncubos\_original.cpp}!somaCubos@{somaCubos}}
+\index{somaCubos@{somaCubos}!ncubos\_original.cpp@{ncubos\_original.cpp}}
+\doxysubsubsection{\texorpdfstring{somaCubos()}{somaCubos()}}
+{\footnotesize\ttfamily int soma\+Cubos (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+Recebe um número n e devolve a soma dos primeiros n cubos exemplo de input\+: 3, saída\+: 36 caso base em que chegamos no número 1 e como o cubo de 1 é 1, retornamos 1
+
+início da recursão com (o cubo de n) + (o cubo de n-\/1) até 1
+
+Definition at line 18 of file ncubos\+\_\+original.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{18                     \{}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20     \textcolor{keywordflow}{if}(n==1)\{}
+\DoxyCodeLine{24         \textcolor{keywordflow}{return} 1;}
+\DoxyCodeLine{25     \}}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27     \textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{31         \textcolor{keywordflow}{return} (n * n * n) + \mbox{\hyperlink{ncubos__original_8cpp_a4a0e0062ecf1f177d0dafd7b24babf93}{somaCubos}}(n-\/1); }
+\DoxyCodeLine{32     \}}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \}}
+
+\end{DoxyCode}

@@ -1,0 +1,68 @@
+\hypertarget{smallestelement_8cpp}{}\doxysection{smallestelement.\+cpp File Reference}
+\label{smallestelement_8cpp}\index{smallestelement.cpp@{smallestelement.cpp}}
+
+
+Função que encontra o menor elemento de um vetor.  
+
+
+{\ttfamily \#include $<$bits/stdc++.\+h$>$}\newline
+Include dependency graph for smallestelement.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{smallestelement_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{smallestelement_8cpp_abd06cfb3f5b166633747b346fa044a36}{smallest\+Element}} (int $\ast$vetor, int n)
+\item 
+int \mbox{\hyperlink{smallestelement_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Função que encontra o menor elemento de um vetor. 
+
+\begin{DoxyAuthor}{Author}
+Jacques Gomes Pinheiro Junior $\vert$ Matrícula\+: 20220050099 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em n} & A entrada consiste em \textquotesingle{}n\textquotesingle{} que é o total de números no array \\
+\hline
+{\em m} & Em seguida, uma sequência de n números \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Menor elemento do vetor 
+\end{DoxyReturn}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{smallestelement_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{smallestelement_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{smallestelement.cpp@{smallestelement.cpp}!main@{main}}
+\index{main@{main}!smallestelement.cpp@{smallestelement.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A entrada consiste em \textquotesingle{}n\textquotesingle{} que é o total de números no array, em seguida, uma sequência de n números
+
+aqui coletamos n e abrimos espaço para mais um integer, que será utilizado para guardar o menor elemento
+
+essa função inicializa o vetor a partir de 1, deixando o espaço 0 para o menor elemento
+
+inicializamos o vetor\mbox{[}0\mbox{]} com qualquer número que faça parte do array
+
+chamamos a função recursiva\mbox{\Hypertarget{smallestelement_8cpp_abd06cfb3f5b166633747b346fa044a36}\label{smallestelement_8cpp_abd06cfb3f5b166633747b346fa044a36}} 
+\index{smallestelement.cpp@{smallestelement.cpp}!smallestElement@{smallestElement}}
+\index{smallestElement@{smallestElement}!smallestelement.cpp@{smallestelement.cpp}}
+\doxysubsubsection{\texorpdfstring{smallestElement()}{smallestElement()}}
+{\footnotesize\ttfamily int smallest\+Element (\begin{DoxyParamCaption}\item[{int $\ast$}]{vetor,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+executa a comparação dos elementos com a posição 0, de n-\/1 até a posição 1. Restará o menor elemento do array
+
+caso base, se n == 1 já percorremos todo o array e fizemos todas as comparações
+
+chama recursivamente a função até n == 1

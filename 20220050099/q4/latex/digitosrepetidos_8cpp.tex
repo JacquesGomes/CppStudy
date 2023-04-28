@@ -1,0 +1,67 @@
+\hypertarget{digitosrepetidos_8cpp}{}\doxysection{digitosrepetidos.\+cpp File Reference}
+\label{digitosrepetidos_8cpp}\index{digitosrepetidos.cpp@{digitosrepetidos.cpp}}
+
+
+Recebe um número \textquotesingle{}d\textquotesingle{} e outro número \textquotesingle{}k\textquotesingle{} e retorna quantas vezes d foi repetido em \textquotesingle{}k\textquotesingle{}.  
+
+
+{\ttfamily \#include $<$bits/stdc++.\+h$>$}\newline
+Include dependency graph for digitosrepetidos.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{digitosrepetidos_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{digitosrepetidos_8cpp_a085080ef68e64be205c800d2cf9b6774}{digitos\+Repetidos}} (int d, int k, int total)
+\item 
+int \mbox{\hyperlink{digitosrepetidos_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Recebe um número \textquotesingle{}d\textquotesingle{} e outro número \textquotesingle{}k\textquotesingle{} e retorna quantas vezes d foi repetido em \textquotesingle{}k\textquotesingle{}. 
+
+\begin{DoxyAuthor}{Author}
+Jacques Gomes Pinheiro Junior $\vert$ Matrícula\+: 20220050099 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Número que será checado quantas vezes foi repetido \\
+\hline
+{\em m} & Número em que a checagem de repetições será feita \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Quantidade total de repetições de \textquotesingle{}d\textquotesingle{} em \textquotesingle{}k\textquotesingle{} 
+\end{DoxyReturn}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{digitosrepetidos_8cpp_a085080ef68e64be205c800d2cf9b6774}\label{digitosrepetidos_8cpp_a085080ef68e64be205c800d2cf9b6774}} 
+\index{digitosrepetidos.cpp@{digitosrepetidos.cpp}!digitosRepetidos@{digitosRepetidos}}
+\index{digitosRepetidos@{digitosRepetidos}!digitosrepetidos.cpp@{digitosrepetidos.cpp}}
+\doxysubsubsection{\texorpdfstring{digitosRepetidos()}{digitosRepetidos()}}
+{\footnotesize\ttfamily int digitos\+Repetidos (\begin{DoxyParamCaption}\item[{int}]{d,  }\item[{int}]{k,  }\item[{int}]{total }\end{DoxyParamCaption})}
+
+condição base em que todos os digitos já foram analisados
+
+encontrou um digito igual a d em k
+
+continua chamando a função, sendo que com k/10, eliminando o digito que foi analisado na iteração corrente
+
+retorna o resultado após todas as iterações\mbox{\Hypertarget{digitosrepetidos_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{digitosrepetidos_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{digitosrepetidos.cpp@{digitosrepetidos.cpp}!main@{main}}
+\index{main@{main}!digitosrepetidos.cpp@{digitosrepetidos.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+recebe as entradas d e k
+
+int que armazenará o total de repetições do dígito
+
+chamada da função recursiva

@@ -1,0 +1,73 @@
+\hypertarget{primalidade_8cpp}{}\doxysection{primalidade.\+cpp File Reference}
+\label{primalidade_8cpp}\index{primalidade.cpp@{primalidade.cpp}}
+
+
+Recebe o resultado do fatorial e retorna o primeiro número primo anterior a esse resultado.  
+
+
+{\ttfamily \#include \char`\"{}primalidade.\+hpp\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for primalidade.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{primalidade_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+long int \mbox{\hyperlink{primalidade_8cpp_a0f72b458607a4e3bd1a3a8d3cd068935}{primalidade}} (long int n, long int aux)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Recebe o resultado do fatorial e retorna o primeiro número primo anterior a esse resultado. 
+
+\begin{DoxyAuthor}{Author}
+Jacques Gomes Pinheiro Junior $\vert$ Matrícula\+: 20220050099 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Resultado do fatorial \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Primeiro primeiro anterior ao resultado do fatorial 
+\end{DoxyReturn}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{primalidade_8cpp_a0f72b458607a4e3bd1a3a8d3cd068935}\label{primalidade_8cpp_a0f72b458607a4e3bd1a3a8d3cd068935}} 
+\index{primalidade.cpp@{primalidade.cpp}!primalidade@{primalidade}}
+\index{primalidade@{primalidade}!primalidade.cpp@{primalidade.cpp}}
+\doxysubsubsection{\texorpdfstring{primalidade()}{primalidade()}}
+{\footnotesize\ttfamily long int primalidade (\begin{DoxyParamCaption}\item[{long int}]{n,  }\item[{long int}]{aux }\end{DoxyParamCaption})}
+
+caso base em que aux já passou da metade de N e ainda não encontrou um divisor(lembrando que a variável \char`\"{}aux já começa do número 2, então qualquer divisor encontrado irá demonstrar a não-\/primalidade de \char`\"{}n"{})
+
+caso encontre um divisor entre 2 e n/2, o número não é primo, então diminuimos n em 1, reiniciamos aux para 2 e chamamos novamente a função
+
+aqui nos temos a chamada da função com o incremento de aux para quando nenhuma das condições forem encontradas (nesse caso, a recursão continua procurando se há um divisor entre aux + 1 e n/2)
+
+Definition at line 12 of file primalidade.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{12                                               \{}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14     \textcolor{keywordflow}{if}(aux >= n/2)\{}
+\DoxyCodeLine{19         \textcolor{keywordflow}{return} n;}
+\DoxyCodeLine{20     \}}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22     \textcolor{keywordflow}{if}(n \% aux == 0)\{}
+\DoxyCodeLine{26         n-\/-\/;}
+\DoxyCodeLine{27         aux = 2;}
+\DoxyCodeLine{28         \textcolor{keywordflow}{return} \mbox{\hyperlink{primalidade_8cpp_a0f72b458607a4e3bd1a3a8d3cd068935}{primalidade}}(n, aux);}
+\DoxyCodeLine{29     \}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31     \textcolor{keywordflow}{return} \mbox{\hyperlink{primalidade_8cpp_a0f72b458607a4e3bd1a3a8d3cd068935}{primalidade}}(n, aux+1); }
+\DoxyCodeLine{36 \}}
+
+\end{DoxyCode}
