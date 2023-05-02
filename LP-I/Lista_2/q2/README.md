@@ -14,7 +14,7 @@ flowchart LR;
     D --> E[End];
 ```
 
-<div style="max-width: 50%; margin:auto;>
+<div style="max-width: 50%; margin:auto;">
 
         ```mermaid
         graph TD
