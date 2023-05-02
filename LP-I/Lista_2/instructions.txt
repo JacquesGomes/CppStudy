@@ -1,0 +1,4 @@
+Os códigos deverão ser modularizados e devem incluir:
+- Documentação usando Doxygen com tags adequadas com nome completo e matrícula, e deverão ser
+comentados, explicando detalhadamente o que é feito no trecho do código e um exemplo de entrada
+e saída do código.

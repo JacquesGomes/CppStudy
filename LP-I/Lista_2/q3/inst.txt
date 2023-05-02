@@ -1,0 +1,33 @@
+Questão 3) [1 ponto] Implemente a seguinte Classe com os seguintes atributos e métodos:
+Classe Aluno:
+private:
+int matrícula;
+string nome;
+float nota1;
+float nota2;
+float nota3;
+public:
+métodos getters e setters;
+construtor e destrutor;
+calculaMedia;
+Classe Turma:
+private:
+int capacidade;
+int vagas;
+Lista alunos;
+public:
+métodos getters e setters;
+Turma(int capacidade); // alocaAlunos;
+~Turma(){};
+imprimeAlunos();
+/**
+* Lista de forma ordenada o campo da Classe passado
+* como parâmetro, passando um campo “matricula”, “nome”
+* ou “nota”. Implemente usando ordenação por seleção
+* (selectionSort).
+**/
+ordenaCampo(string campo);
+Implemente a turma usando alocação dinâmica para armazenar a lista de Alunos.
+Teste com pelo menos 5 alunos cadastrados, imprima a listagem antes e depois de
+ordenar os três campos. Coloque exemplos de entrada e saída do código no arquivo
+“Q3/README.md”.
