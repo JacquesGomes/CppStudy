@@ -21,18 +21,18 @@ Alguns códigos possuem um arquivo Doxygen que pode ser executado localmente par
 <li>
 <p>
     <img width="32px" height=32px style="vertical-align: middle" src="https://www.freeiconspng.com/uploads/c--logo-icon-0.png" alt="csharp-logo"/>
-    - C++: linguagem de programação utilizada para escrever todos os códigos deste repositório. A documentação oficial da linguagem pode ser encontrada em <a href="https://isocpp.org/">C++ docs</a>. A biblioteca STL foi utilizada neste repositório para implementar estruturas de dados e algoritmos. A documentação oficial pode ser encontrada em <a href="http://www.cplusplus.com/reference/stl/">STL docs</a>.
+    - C++: linguagem de programação utilizada para escrever todos os códigos deste repositório, <a href="https://isocpp.org/">C++ docs</a>. A biblioteca STL foi utilizada neste repositório para implementar estruturas de dados e algoritmos, <a href="http://www.cplusplus.com/reference/stl/">STL docs</a>.
 </p>
 
 <li>
 <p>
-    :gear: - Makefile: A makefile foi utilizada em alguns projetos deste repositório para facilitar a compilação e execução de projetos modularizados. A documentação oficial do make pode ser encontrada em <a href="https://www.gnu.org/software/make/manual/make.html">Make docs</a>.
+    :gear: - Makefile: O makefile foi utilizada em alguns projetos deste repositório para facilitar a compilação e execução de projetos modularizados, <a href="https://www.gnu.org/software/make/manual/make.html">Make docs</a>.
 </p>
 
 <li>
 <p>
     <img width="32px" height=32px style="vertical-align: middle" src="https://avatars.githubusercontent.com/u/1300762?v=4" alt="doxygen logo"/>
-    - Doxygen: Ferramenta utilizada para gerar a documentação do código-fonte neste repositório. O arquivo Doxygen está presente em alguns dos códigos e pode ser executado localmente para gerar a documentação. A documentação oficial do Doxygen pode ser encontrada em <a href="http://www.doxygen.nl/">Doxygen docs</a>.
+    - Doxygen: Ferramenta utilizada para gerar a documentação do código-fonte neste repositório. O arquivo de configuração (doxyfile) está presente em alguns dos códigos e pode ser executado localmente para gerar a documentação, <a href="http://www.doxygen.nl/">Doxygen docs</a>.
 </p>
 </ul>
 

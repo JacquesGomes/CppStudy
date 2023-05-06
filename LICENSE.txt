@@ -1,0 +1,9 @@
+Licença MIT (MIT)
+
+Copyright (c) 2023 Jacques Gomes Pinheiro Junior
+
+Permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia desta licença e dos arquivos de documentação associados (a "Licença"), para negociar a utilização desta obra para qualquer finalidade, incluindo a exploração comercial, e para restringir a utilização, cópia, distribuição, sub-licenciamento e/ou venda de cópias da obra, e para permitir que as pessoas a quem a obra é fornecida possam fazê-lo, sob as seguintes condições:
+
+O aviso de direitos autorais acima e este aviso de permissão devem ser incluídos em todas as cópias ou partes substanciais da obra.
+
+A obra é fornecida "como está", sem garantia de qualquer tipo, expressa ou implícita, incluindo, mas não limitada a, garantias de adequação a uma finalidade específica e não violação. Em nenhum caso os autores ou detentores dos direitos autorais serão responsáveis por qualquer reclamação, danos ou outras responsabilidades, seja em ação de contrato, delito ou de outra forma, decorrentes de, ou em conexão com a obra ou o uso ou outras operações na obra.
