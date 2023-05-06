@@ -26,7 +26,6 @@ Alguns códigos possuem um arquivo Doxygen que pode ser executado localmente par
 
 <li>
 <p>
-    
     :gear: - Makefile: A makefile foi utilizada em alguns projetos deste repositório para facilitar a compilação e execução de projetos modularizados. A documentação oficial do make pode ser encontrada em <a href="https://www.gnu.org/software/make/manual/make.html">Make docs</a>.
 </p>
 
