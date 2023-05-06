@@ -1,5 +1,4 @@
-Questão 2) [0.5 ponto] Com as as seguintes perguntas mais comuns sobre git em entrevistas de
-emprego, escolha 5 questões abaixo, responda e exemplifique o fluxo em um arquivo
+escolha 5 questões abaixo, responda e exemplifique o fluxo em um arquivo
 “Q2/README.md” as condições que podemos utilizar o comando:
 2.1)
 O que é "git cherry-pick"?
