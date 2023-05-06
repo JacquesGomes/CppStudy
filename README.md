@@ -1,8 +1,10 @@
 <h1 align="center"> Estudo de C++</h1>
 <p align="center">Repositório com códigos gerais em C++</p>
-<br>
 
 ---
+
+<br>
+
 
 ## :globe_with_meridians: Descrição
 
@@ -10,9 +12,10 @@ Este repositório contém códigos em C++ de estudos pessoais de estruturas de d
 
 Alguns códigos possuem um arquivo Doxygen que pode ser executado localmente para gerar a sua documentação, útil para entender melhor como cada código funciona e quais funções estão disponíveis. Além disso, alguns projetos possuem uma makefile disponível para facilitar a compilação e execução de projetos modularizados.
 
+---
+
 <br>
 
----
 
 ## :wrench: Tecnologias
 
@@ -36,17 +39,19 @@ Alguns códigos possuem um arquivo Doxygen que pode ser executado localmente par
 </p>
 </ul>
 
+---
+
 <br>
 
----
 
 ## :bookmark_tabs: Referências
 
-<br>
-
 ---
+
+<br>
 
 ## :page_with_curl: Licença
 
 Este projeto está sob a licença <a href="#">MIT</a>.
 
+---
