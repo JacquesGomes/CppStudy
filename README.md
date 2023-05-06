@@ -15,7 +15,7 @@ Alguns códigos possuem um arquivo Doxygen que pode ser executado localmente par
 
 
 
-## :wrench: Tecnologias
+## :wrench: Tecnologias utilizadas
 
 <ul>
 <li>
@@ -48,6 +48,6 @@ Alguns códigos possuem um arquivo Doxygen que pode ser executado localmente par
 
 ## :page_with_curl: Licença
 
-Este projeto está sob a licença <a href="#">MIT</a>.
+Este projeto está sob a licença <a href="https://github.com/JacquesGomes/Cpp-study/blob/main/LICENSE.txt">MIT</a>.
 
 ---
