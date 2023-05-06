@@ -3,7 +3,6 @@
 
 ---
 
-<br>
 
 
 ## :globe_with_meridians: Descrição
@@ -14,7 +13,6 @@ Alguns códigos possuem um arquivo Doxygen que pode ser executado localmente par
 
 ---
 
-<br>
 
 
 ## :wrench: Tecnologias
@@ -41,14 +39,13 @@ Alguns códigos possuem um arquivo Doxygen que pode ser executado localmente par
 
 ---
 
-<br>
+
 
 
 ## :bookmark_tabs: Referências
 
 ---
 
-<br>
 
 ## :page_with_curl: Licença
 
