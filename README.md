@@ -1,18 +1,20 @@
 <h1 align="center"> Estudo de C++</h1>
 <p align="center">Repositório com códigos gerais em C++</p>
-
-## Sobre esse repositório
-
-Este repositório contém uma variedade de códigos em C++, desde estudos pessoais até materiais das disciplinas de Linguagem de Programação I (IMD/UFRN) e Treinamento em Competição de Programação (DIMAP/UFRN). Também inclui códigos relacionados ao estudo de estruturas de dados e algoritmos, desafios e outros códigos genéricos. Os tópicos abordados incluem programação orientada a objetos, ponteiros, listas encadeadas e muito mais. 
-
-Este repositório é uma excelente fonte de referência para estudantes de programação em C++, oferecendo exemplos práticos de como implementar diferentes conceitos e algoritmos em C++.
-
-É importante mencionar que parte dos códigos neste repositório contém um arquivo Doxygen que pode ser executado localmente para gerar a documentação desses códigos. Isso pode ser extremamente útil para quem deseja entender melhor como cada código funciona e quais funções estão disponíveis. Além disso, pode haver uma makefile disponível em alguns projetos, o que pode facilitar a compilação e execução de projetos modularizados. 
 <br>
 
-### :wrench: Tecnologias
+---
+
+## :globe_with_meridians: Descrição
+
+Este repositório contém códigos em C++ de estudos pessoais de estruturas de dados e algoritmos, da matéria de Linguagem de Programação I (IMD/UFRN) e de Treinamento em Competição de Programação (DIMAP/UFRN), desafios e outros códigos genéricos. Inclui tópicos como programação orientada a objetos, ponteiros e listas encadeadas e muitos mais. É uma ótima fonte de referência para estudantes de programação em C++, oferecendo exemplos práticos de como implementar diferentes conceitos e algoritmos em C++.
+
+Alguns códigos possuem um arquivo Doxygen que pode ser executado localmente para gerar a sua documentação, útil para entender melhor como cada código funciona e quais funções estão disponíveis. Além disso, alguns projetos possuem uma makefile disponível para facilitar a compilação e execução de projetos modularizados.
 
 <br>
+
+---
+
+## :wrench: Tecnologias
 
 <ul>
 <li>
@@ -36,4 +38,15 @@ Este repositório é uma excelente fonte de referência para estudantes de progr
 
 <br>
 
+---
+
+## :bookmark_tabs: Referências
+
+<br>
+
+---
+
+## :page_with_curl: Licença
+
+Este projeto está sob a licença <a href="#">MIT</a>.
 
