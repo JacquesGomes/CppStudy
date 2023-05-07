@@ -1,13 +1,4 @@
-Questão 3) [1 ponto] Implemente a seguinte Classe com os seguintes atributos e métodos:
-Classe Aluno:
-private:
-int matrícula;
-string nome;
-float nota1;
-float nota2;
-float nota3;
-public:
-métodos getters e setters;
+
 construtor e destrutor;
 calculaMedia;
 Classe Turma:

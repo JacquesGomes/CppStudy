@@ -1,3 +1,14 @@
+/**
+ * @file triborecur.cpp
+ * @author Jacques Gomes Pinheiro Junior | Matrícula: 20220050099 
+ * @brief Calcula o n-ésimo termo da sequência de Fibonacci modificada que é definida como F(i) = F(i-1) + F(i-2) + F(i-3), para i > 2 e F(0) = 0, F(1) = 1 e F(2) = 2.
+ * Exemplo de uso:
+ * Digite um número inteiro: 5
+ * Saída: 11
+ * @param n Valor inteiro que representa o termo desejado na sequência
+ * @return O n-ésimo termo da sequência de Fibonacci modificada
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
