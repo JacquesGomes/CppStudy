@@ -11,15 +11,9 @@ class ListaSequencial {
         int tamanho;
     
     public:
-        ListaSequencial(int cap){
-            this->capacidade = cap;
-            this->dados = new int[capacidade];
-            this->tamanho = 0;
-        }
+        ListaSequencial(int cap);
 
-        ~ListaSequencial(){
-            delete[] dados;
-        }
+        ~ListaSequencial();
 
         int push_front(int valor);
         int push_back(int valor);
@@ -32,6 +26,7 @@ class ListaSequencial {
         int deleteList();
         void sort();
         void reverse();
+        void imprimirLista();
 
 };
 
