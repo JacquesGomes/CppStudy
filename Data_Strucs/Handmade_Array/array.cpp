@@ -120,14 +120,48 @@ int ListaSequencial::deleteList(){
 }
 
 
-/*void ListaSequencial::sort(){
+void ListaSequencial::sort(){
+    bool trocou;
+    for(int i = 0; i < this->tamanho-1;i++){
+        trocou = false;
+        int temp;
 
+        for(int j = 0; j < this->tamanho - i - 1; j++){
+            if(this->dados[j] > this->dados[j+1]){
+                temp = this->dados[j];
+                this->dados[j] = this->dados[j+1];
+                this->dados[j+1] = temp;
+                trocou = true;
+            }
+        }
+        if(!trocou){
+            break;
+        }
+
+    }
 }
 
 
 void ListaSequencial::reverse(){
+    bool trocou;
+    for(int i = 0; i < this->tamanho-1;i++){
+        trocou = false;
+        int temp;
 
-}*/
+        for(int j = 0; j < this->tamanho - i - 1; j++){
+            if(this->dados[j] < this->dados[j+1]){
+                temp = this->dados[j];
+                this->dados[j] = this->dados[j+1];
+                this->dados[j+1] = temp;
+                trocou = true;
+            }
+        }
+        if(!trocou){
+            break;
+        }
+
+    }
+}
 
 void ListaSequencial::imprimirLista(){
     for(int i=0; i<this->tamanho; i++){
@@ -144,3 +178,4 @@ int ListaSequencial::showAt(int index){
     return this->dados[index];
 
 }
+

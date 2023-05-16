@@ -7,10 +7,10 @@ int main(){
 
     ListaSequencial lista(10);
     int opcao, elemento, index, size, returned;
-    while (opcao != 11){
+    while (opcao != 14){
 
         cout << endl;
-        cout << "1 - Insert at front\n2 - Insert at the end\n3 - Insert at index\n4 - Pop front\n5 - Pop back\n6 - Pop at index\n7 - Tamanho atual da lista\n8 - Encontrar elemento\n9 - Deletar lista\n10 - Imprimir lista\n11 - Sair\n";
+        cout << "1 - Insert at front\n2 - Insert at the end\n3 - Insert at index\n4 - Pop front\n5 - Pop back\n6 - Pop at index\n7 - Tamanho atual da lista\n8 - Encontrar elemento\n9 - Mostrar elemento pelo index\n10 - Deletar lista\n11 - Imprimir lista\n12 - Ordenar lista de forma crescente\n13 - Ordenar lista de forma decrescente\n14 - Sair\n";
         cin >> opcao;
 
         switch(opcao){
@@ -63,15 +63,37 @@ int main(){
                 returned = lista.find(elemento);
                 cout << "Elemento " << elemento << " encontrado no index: " << returned << endl;
                 break;
+
             case 9:
-                lista.deleteList();
+                cout << endl << "Informe o index: ";
+                cin >> index;
+
+                returned = lista.showAt(index);
+                cout << "O elemento no index " << index << " é: " << returned << endl;
                 break;
             case 10:
-                lista.imprimirLista();
+                lista.deleteList();
                 break;
             case 11:
+                lista.imprimirLista();
+                break;
+            
+            case 12:
+                lista.sort();
+                cout << "A lista ordenada de forma crescente é: ";
+                lista.imprimirLista();
+                break;
+
+            case 13:
+                lista.reverse();
+                cout << "A lista ordenada de forma decrescente é: ";
+                lista.imprimirLista();
+                break;
+
+            case 14:
                 cout << "Bye bye" << endl;
                 break;
+
             default:
                 cout << "Opcao invalida." << endl;
         }
