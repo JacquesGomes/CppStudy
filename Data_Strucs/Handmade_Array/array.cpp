@@ -135,3 +135,12 @@ void ListaSequencial::imprimirLista(){
     }
     cout << endl;
 }
+
+int ListaSequencial::showAt(int index){
+    if(index == -1){
+        return this->dados[tamanho-1];
+    }
+
+    return this->dados[index];
+
+}

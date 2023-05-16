@@ -6,9 +6,10 @@ using namespace std;
 int main(){
 
     ListaSequencial lista(10);
-    int opcao, elemento, index, size;
+    int opcao, elemento, index, size, returned;
     while (opcao != 11){
 
+        cout << endl;
         cout << "1 - Insert at front\n2 - Insert at the end\n3 - Insert at index\n4 - Pop front\n5 - Pop back\n6 - Pop at index\n7 - Tamanho atual da lista\n8 - Encontrar elemento\n9 - Deletar lista\n10 - Imprimir lista\n11 - Sair\n";
         cin >> opcao;
 
@@ -18,37 +19,39 @@ int main(){
                 cout << endl << "Informe o número: ";
                 cin >> elemento;
                 lista.push_front(elemento);
-                //cout << "Novo elemento no front: " <<
+                returned = lista.showAt(0);
+                cout << "Novo elemento no front: " << returned << endl;
                 break;
             case 2:
                 cout << endl << "Informe o número: ";
                 cin >> elemento;
                 lista.push_back(elemento);
-                //cout << "Novo elemento no back: " <<
+                returned = lista.showAt(-1);
+                cout << "Novo elemento no back: " << returned << endl;
                 break;
             case 3:
                 cout << endl << "Informe o index e o número: ";
                 cin >> index >> elemento;
                 lista.insert(index, elemento);
-                //cout << "Novo elemento no index << index << ": " <<
+                returned = lista.showAt(index);
+                cout << "Novo elemento no index " << index << ": " << returned << endl;
                 break;
             case 4:
-                cout << endl << "Informe o número: ";
-                cin >> elemento;
                 lista.pop_front();
-                //cout << "Novo elemento no index << index << ": " <<
+                returned = lista.showAt(0);
+                cout << "Novo elemento no front: " << returned << endl;
                 break;
             case 5:
-                cout << endl << "Informe o número: ";
-                cin >> elemento;
                 lista.pop_back();
-                //cout << "Novo elemento no index << index << ": " <<
+                returned = lista.showAt(-1);
+                cout << "Novo elemento no back: "<< returned << endl;
                 break;
             case 6:
                 cout << endl << "Informe o index: ";
                 cin >> index;
                 lista.removeAt(index);
-                //cout << "Novo elemento no index << index << ": " <<
+                returned = lista.showAt(index);
+                cout << "Novo elemento no index "<< index << ": " << returned << endl;
                 break;
             case 7:
                 size = lista.sizeOf();
@@ -57,8 +60,8 @@ int main(){
             case 8:
                 cout << endl << "Informe o elemento: ";
                 cin >> elemento;
-                lista.find(elemento);
-                //cout << "Novo elemento no index << index << ": " <<
+                returned = lista.find(elemento);
+                cout << "Elemento " << elemento << " encontrado no index: " << returned << endl;
                 break;
             case 9:
                 lista.deleteList();

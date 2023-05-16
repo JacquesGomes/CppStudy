@@ -27,6 +27,7 @@ class ListaSequencial {
         void sort();
         void reverse();
         void imprimirLista();
+        int showAt(int index);
 
 };
 
