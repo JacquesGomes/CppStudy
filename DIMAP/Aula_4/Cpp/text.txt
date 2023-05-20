@@ -1,0 +1,6 @@
+Pós-contest: Atacar os problemas intermediários, identificar o que faltou para resolver os problemas
+Caso passe muito tempo sem progresso, consultar o editorial
+
+Estudar outras implementações
+
+codeforces -> na submissão tem como achar onde há um erro

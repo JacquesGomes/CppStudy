@@ -1,0 +1,5 @@
+change initializercpp to initCquest
+Create initializer to class subject
+
+
+senha: maratona

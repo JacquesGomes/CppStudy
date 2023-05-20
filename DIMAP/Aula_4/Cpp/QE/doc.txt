@@ -1,0 +1,7 @@
+map key = value
+
+map value = indice
+
+int[numbers] = values
+
+possível q e o number[contador] = value and when applied to mapp = indice
