@@ -8,6 +8,7 @@ class Node{
     private: 
         int elemento;
         Node* next;
+        friend class ListaEncadeada;
     
     public:
 
@@ -42,16 +43,17 @@ class ListaEncadeada {
         ListaEncadeada ();
         ListaEncadeada (Node* head);
         ~ListaEncadeada();
-        int push_front(int valor);
-        int push_back(int valor);
+        void push_front(int valor);
+        void push_back(int valor);
         void pop_front();
         void pop_back();
         void printAll();
         void remove(int valor);
         void sizeOf();
-        int find(int valor);
+        bool find(int valor);
         void deleteAll();
 
+    
 };
 
 #endif

@@ -1,0 +1,5 @@
+choice/constraint/goal
+
+explore decisions
+undo then if needed
+reach base cases
