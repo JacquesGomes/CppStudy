@@ -7,7 +7,9 @@
 
 ## :globe_with_meridians: Descrição
 
-Este repositório contém códigos em C++ de estudos pessoais de estruturas de dados e algoritmos, da matéria de Linguagem de Programação I (IMD/UFRN) e de Treinamento em Competição de Programação (DIMAP/UFRN), desafios e outros códigos genéricos. Inclui tópicos como programação orientada a objetos, ponteiros e listas encadeadas e muitos mais. É uma ótima fonte de referência para estudantes de programação em C++, oferecendo exemplos práticos de como implementar diferentes conceitos e algoritmos em C++.
+Este repositório contém códigos em C++ destinados a: estudos pessoais sobre estruturas de dados e algoritmos; matéria de Linguagem de Programação I (IMD/UFRN); matéria de Treinamento em Competição de Programação (DIMAP/UFRN); desafios e outros assuntos genéricos. 
+
+Inclui tópicos como programação orientada a objetos, ponteiros e listas encadeadas e muitos mais. É uma ótima fonte de referência para estudantes de programação em C++, oferecendo exemplos práticos de como implementar diferentes conceitos e algoritmos em C++.
 
 Alguns códigos possuem um arquivo Doxygen que pode ser executado localmente para gerar a sua documentação, útil para entender melhor como cada código funciona e quais funções estão disponíveis. Além disso, alguns projetos possuem uma makefile disponível para facilitar a compilação e execução de projetos modularizados.
 
