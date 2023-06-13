@@ -1,0 +1,19 @@
+Menu → login/create → function(name) → menu → which to work with: tasks; tables; reports? → individual menu of each
+
+tasks:
+    read;
+    write;
+    delete;
+    change status;
+    change category;
+    change assignee;
+    change assigneer/head;
+    change last date;
+    join all tasks in one doc;
+    join all tasks of a particular category;
+    join all tasks of a particular due date;
+    
+
+    Hard:
+        see all tasks due to X date;
+

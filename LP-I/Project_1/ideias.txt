@@ -1,0 +1,12 @@
+Login > pasta pessoal > criar novo doc / alterar existentes / excluir doc
+
+A depender do tipo de doc que está sendo editado, utilizar uma organização diferente (csv -> usar tabulação e lógica de colunas e linhas)
+
+salvar relatório
+criar tabela 
+salvar tarefa -> status (estilo kanban) + categoria (teste, documentação, refatoração, etc)
+
+Funções:
+    juntar relatórios/tabelas/tarefas em um arquivo só;
+    fazer um código SQL para criar um banco de dados a partir da tabela;
+    classificar tarefas com ordenação;

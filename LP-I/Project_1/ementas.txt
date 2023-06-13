@@ -1,0 +1,43 @@
+Ementa:	1. Algoritmos de busca.
+2. Algoritmos de ordenação.
+3. Complexidade de algoritmos (abordagem experimental).
+4. Verificação de corretude e término.
+5. Listas sequenciais e encadeadas, casos especiais: filas, pilhas e deque
+6. Tabelas de dispersão.
+
+• Operadores de alocação dinâmica
+• Formas de implementação de TADs (Tipos Abstratos de Dados).
+• Funções e Recursividade. Tipos de recursão. Recursão x Interação.
+• Performance, Expressividade.
+• Introdução a Classes.
+• Construtores e Destrutores. Tipos compostos. Tipos recursivos.
+• Gerenciamento de memória.
+• Modularização de Programas
+• Depuração e Profiling
+• Aplicações em estruturas e algoritmos presentes em EDB1
+
+Considerar a ementa da disciplina, através da especificação e implementação de um projeto que atenda aos conteúdos das disciplinas de EDB1 e LP1:
+    Implementar Orientação a Objetos, Construtores/Destrutores, Classes, Herança, Sobrecarga e Polimorfismo.
+    Implementar TADs (Tipos Abstratos de Dados) usando Orientação a Objetos, para a aplicação de pelo menos três estruturas de dados:
+    listas encadeadas, duplamente encadeadas, circulares, ordenadas, pilhas, ou filas.
+    Implementar um algoritmo de busca binária recursiva e iterativa.
+    Aplicação de pelo menos três algoritmos de ordenação (dica aqui e dica aqui):
+    Selection sort, Bubble sort, Comb sort, Quick sort, Merge sort, Heap sort, Radix Sort, Bucket Sort, CountSort, ou Shell sort.
+    Discutir na documentação sobre a complexidade dos algoritmos de busca e ordenação utilizados.
+    Manipulação de Leitura e Escrita de Arquivos.
+    Diagramas UML das classes implementadas em Programação Orientada a Objetos (https://app.diagrams.net/).
+    Implementação de Casos de Testes, e geração de Dados aleatória para simular o desempenho do código usando Profiling. 
+    Modularize e comente seu código. O projeto deve conter a estrutura (dica):
+        bin/:  os arquivos binários executáveis do projeto.
+        build/: arquivos de projetos gerados e os arquivos objetos (.o).
+        docs/: toda documentação gerada em md, ou html via Doxygen incluindo aqui o doxyfile.
+        include/: contendo os cabeçalhos de extensão (.hpp).
+        tests/: códigos para testes unitários de testes de funções (.cpp).
+        src/: contendo o código fonte de arquivos (.cpp).
+        .gitignore: com os arquivos a serem ignorados de .
+        makefile: com os comandos de compilação.
+        README.md: com todas instruções sobre como compilar e acessar a documentação (dica).
+
+Durante a compilação do seu código fonte, você deverá habilitar a exibição de mensagens de aviso (warnings), pois eles podem dar indícios de que o programa potencialmente possui problemas em sua implementação que podem se manifestar durante a sua execução.
+    Una flag _MUITO UTIL_ é a -fsanitize=address(use g++ <arquivo.cpp> -fsanitize=address -g), que linka o address sanitizer(asan) no executável final do programa. Usando essa flag na compilação, seu programa se comportará de forma semelhante à programas escritos em linguagem de script (ou linguagens interpretadas como java), gerando erros que normalmente c e c++ deixam de lado por serem linguagens mais permissivas. Erros como acesso à posições inválidas de array, uso de ponteiros não inicializados e até uma melhor descrição quando um segmentation fault ocorre.
+
