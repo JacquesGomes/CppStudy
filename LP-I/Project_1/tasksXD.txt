@@ -1,0 +1,5 @@
+Quando o usuário fizer o login é preciso armazenar o id dele no sistema, esse id deverá ser adicionado no cabeçalho dos arquivos, junto com criado por usuário tal, id tal.
+
+Esse id poderá ser utilizado para salvar todas as tasks de um usuário em um arquivo só ou recuperar arquivos por essa id, etc.
+
+Implementar a id como set ou algo do tipo, para garantir a unicidade. Avaliar se é interessante usar o nome do usuário como id e não permitir nomes idênticos

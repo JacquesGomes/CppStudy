@@ -1,0 +1,33 @@
+login/autentic
+
+menu
+
+menu - tasks (title; descrição; estimated hours; priority status; task progress; notes; plan; milestones; made by; assign to; data de início; data de entrega; assigned by, assignee); (status: complete; overdue; not started; in progress) -> encapsular quando possível;
+
+menu - reports (nome; data; assunto; objetivos alcançados; próximos objetivos; fazendo; )
+
+menu - tables
+
+Nova função: diferenciar entre usuário e adm (limitar funções de usuários e dar maior liberdade ao adm)
+
+Diagramas comportamentais / Estruturais
+
+Diagrama de casos de uso (um dos primeiros documentos ao levantar requisitos) -> aspectos funcionais básicos
+
+Inclusão/Extensão - Casos de uso - Relação de dependência
+
+'-' = privado
+'+' = public
+'#' = protected
+
++setLength(n : int) : void = parâmetro n(int) e retorno void
+
+in, inout e out;
+
+in = setado pela main
+inout = setou, é um ponteiro e pode ser alterado
+out = não setou mas foi alterado
+
+Diagrama de sequência -> ações, respostas, estados (chamadas assíncronas; síncronas)
+
+
