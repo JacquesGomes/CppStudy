@@ -1,0 +1,13 @@
+CaminhoArquivo: 
+Usuario: jacques
+Título: gomes
+Data de criação: a
+Categoria: a
+Atribuída por: a
+Responsável: a
+Assunto: a
+Descrição: a
+Notas: a
+Status: 
+Prioridade: a
+Prazo final: a

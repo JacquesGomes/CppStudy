@@ -1,0 +1,13 @@
+CaminhoArquivo: Ops
+Usuario: Jacques
+Título: Repetido
+Data de criação: teste
+Categoria: Testando
+Atribuída por: Jacuqes
+Responsável: Jacques
+Assunto: Teste
+Descrição: Jacques
+Notas: teste
+Status: teste
+Prioridade: teste
+Prazo final: teste
