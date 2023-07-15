@@ -1,9 +1,0 @@
-seenValues.count(int x) > 0
-
-In C++, the .count() function is a method of std::unordered_set. If the set contains the value, the count will be 1; otherwise, it will be 0.
-
-
-goto next //function that works in inner loops to effectively stop the nest iterations and go to the code location specified by the variable (in this case, the "next" one)
-
-next:
-

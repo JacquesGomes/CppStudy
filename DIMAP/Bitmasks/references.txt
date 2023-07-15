@@ -1,3 +1,0 @@
-https://codeforces.com/blog/entry/18169
-https://stackoverflow.com/questions/31575691/what-is-a-bitmask-and-a-mask
-https://towardsdatascience.com/understanding-bitmask-for-the-coding-interview-b1643f4b0e24
